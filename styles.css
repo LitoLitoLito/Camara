@@ -1,0 +1,48 @@
+/* styles.css */
+
+h1{
+    text-align: center;
+    margin: auto;
+}
+
+
+.recuadro {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(166, 228, 238);
+    padding: 10px;    
+    margin: auto;
+    border-radius: 10px;
+    
+    
+}
+
+#video {
+    display:flex;   
+    width: 400px;
+    height: 400px;
+   
+}
+
+#muteButton, #stopButton {
+    margin: 10px auto;
+    padding: 8px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    display: block;
+    background-color: #3498db; /* Azul */
+    color: white; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    width: 300px; /* Tamaño fijo */
+}
+
+#stopButton {
+    background-color: #e74c3c; /* Rojo */
+}
+
+#muteButton:hover, #stopButton:hover {
+    opacity: 0.8; /* Cambio de opacidad al pasar el cursor */
+}
+
+
